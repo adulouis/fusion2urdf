@@ -9,7 +9,7 @@ import adsk, adsk.core, adsk.fusion
 import os.path, re
 from xml.etree import ElementTree
 from xml.dom import minidom
-from distutils.dir_util import copy_tree
+from shutil import copy_tree #this is where the file is from
 import fileinput
 import sys
 
